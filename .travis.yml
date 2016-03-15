@@ -1,3 +1,9 @@
 language: shell
 
-script: ./code/test.sh
+env: 
+  - PARAMETER=AAAAAAAAAAAAAA
+  - PARAMETER=bbbbbbbbbbbbbbbb
+
+
+
+script: ./code/test.sh ${PARAMETER}

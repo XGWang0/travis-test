@@ -24,7 +24,7 @@
 
 set -o nounset                              # Treat unset variables as an error
 
-echo "tttttttttttttttttttt"
+echo "tttttttttttttttttttt     $1" 
 
 
 exit 0
